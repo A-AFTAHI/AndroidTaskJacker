@@ -17,6 +17,7 @@ The Taskjacker application allows you to attack an application by moving a malic
 
 In order to make the malicious activity unoticed we created a broadcast receiver to listen to a system event and start the activity in the background when the broadcast is received.
 
+![Scenarion](Images/task-jacking-scenario.jpg)
 
 ### Prerequisite
 
