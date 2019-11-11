@@ -11,7 +11,7 @@ In Android, an application's activities run together in a stack called a Task or
 Android allows activities from different applications to share the same task, and this usually happens when an application calls an activity from an other applicatiton.
 But through manipulating the previously mentioned parameters we can force an activity from a malicious application to join the task of another application, or the other way around by bring an activity from an other application to join our application's task in a malicious manner.
 
-### AndroidTaskJacker
+### AndroidTaskJacker (Tested on android emulator)
 
 The Taskjacker application allows you to attack an application by moving a malicious activity on the top of the target application's task by manipulating the 'taskAffinity' and 'allowTaskReparting' parameters. Our PoC application will target the testing example App named (**target**). By using the package name of the latter application (target) as a value of the malaicious activity of the trojan app taskAffinity parameter, this way when the user launchs the target app, the malicious activity which has the same UI as the target app main activity will be placed on the top of the target app's task and fool the user to enter their credentials thinking there are communicating with the legitimate app.
 By clicking the back button the malicious activity will be destroyed and the target app main activity will be brought to the forground. To customize this behavior override the **onbackpressed** method.  
