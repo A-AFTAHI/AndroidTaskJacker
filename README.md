@@ -1,6 +1,6 @@
 # AndroidTaskJacker
 
-Android Taskjacker is a Proof of Concept of android taskjacking vulnerability. The project provides an android trojan (Fake Dating App) which include a Milicious content to exploit android taskjacking vulnerability.
+Android Taskjacker is a Proof of Concept of android taskjacking vulnerability. The project provides an android trojan (Fake Dating App) which includes a Milicious content to exploit android taskjacking vulnerability.
 
 This project is for educational purposes, use it on your own risk.
 
