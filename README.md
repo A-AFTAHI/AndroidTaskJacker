@@ -8,7 +8,7 @@ Android Taskjacker is a Proof of Concept of android taskjacking vulnerability. T
 
 In Android, an application's activities run together in a stack called a Task or the back stack. The position of an activity within a task depends on a set of the activity's parameters : taskAffinity, launchMode, allowTaskReparting, etc.
 
-Android allow activities from different applications to share the same task, and this usually happens when an application calls an activity from an other applicatiton.
+Android allows activities from different applications to share the same task, and this usually happens when an application calls an activity from an other applicatiton.
 But through manipulating the previously mentioned parameters we can force an activity from a malicious application to join the task of another application, or the other way around by bring an activity from an other application to join our application's task in a malicious manner.
 
 ### AndroidTaskJacker
