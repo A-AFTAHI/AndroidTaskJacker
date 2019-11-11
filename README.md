@@ -1,5 +1,9 @@
 # AndroidTaskJacker
 
+Android Taskjacker is a Proof of Concept of android taskjacking vulnerability. The project provides an android trojan (Fake Dating App) which includes a Malicious content to exploit android taskjacking vulnerability.
+
+**This project is for educational purposes, use it on your own risk.**
+
 ### Introduction
 
 In Android, an application's activities run together in a stack called a Task or the back stack. The position of an activity within a task depends on a set of the activity's parameters : taskAffinity, launchMode, allowTaskReparting, etc.
