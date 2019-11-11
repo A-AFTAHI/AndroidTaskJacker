@@ -13,7 +13,7 @@ But through manipulating the previously mentioned parameters we can force an act
 
 ### AndroidTaskJacker
 
-The Taskjacker application allow you to attack an application by moving a malicious activity on the top of the target application's task by manipulating the 'taskAffinity' and 'allowTaskReparting' parameters. Our PoC application will target the testing example App named (**target**). By using the package name of the latter application (target) as a value of the malaicious activity of the trojan app taskAffinity parameter, this way when the user launchs the target app, the malicious activity which has the same UI as the target app main activity will be placed on the top of the target app's task and fool the user to enter their credentials thinking there are communicating with the legitimate app.
+The Taskjacker application allows you to attack an application by moving a malicious activity on the top of the target application's task by manipulating the 'taskAffinity' and 'allowTaskReparting' parameters. Our PoC application will target the testing example App named (**target**). By using the package name of the latter application (target) as a value of the malaicious activity of the trojan app taskAffinity parameter, this way when the user launchs the target app, the malicious activity which has the same UI as the target app main activity will be placed on the top of the target app's task and fool the user to enter their credentials thinking there are communicating with the legitimate app.
 
 In order to make the malicious activity unoticed we created a broadcast receiver to listen to a system event and start the activity in the background when the broadcast is received.
 
