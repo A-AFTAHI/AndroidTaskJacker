@@ -23,7 +23,7 @@ In order to make the malicious activity unoticed we created a broadcast receiver
 ### Prerequisite
 
 - Android studio
-- Android device/emulator
+- Android device/emulator API LEVEL 26
 
 ### Usage
 
