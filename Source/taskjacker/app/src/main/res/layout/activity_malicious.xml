@@ -4,6 +4,7 @@
     * https://github.com/A-AFTAHI/AndroidTaskJacker
     * Created by : AFTAHI Abderrahmane
     * Published on : 11-11-2019
+    * Updated on : 7-12-2020
     * The application integrate DatingApp developped by Santosh Kumar https://github.com/quintuslabs/DatingApp
 -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -22,7 +23,9 @@
         android:id="@id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is not the target app but the similar malicious activity"
+        android:text="This is not the target app. You've been Hijacked"
+        android:textColor="#F00"
+        android:textSize="150px"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
