@@ -20,6 +20,8 @@ In order to make the malicious activity unoticed we created a broadcast receiver
 
 ![Scenarion](Images/task-jacking-scenario.jpg)
 
+Check a running example of the PoC : https://www.youtube.com/watch?v=KKuHddz351E&t
+
 ### Prerequisite
 
 - Android studio
